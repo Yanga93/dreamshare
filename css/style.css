@@ -28,7 +28,8 @@
 #dangerBtn {
   color: red;
   border-radius: 25px;
-  margin-left: 23em;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
 }
 
 .footer-list {
@@ -55,6 +56,9 @@ hr {
 .sports-img, .wellness-img, .expndition-img, .games-img, .culture-img, .beauty-img, .travelling-img {
   position: relative;
   width: 100%;
+  filter: brightness(1000%);
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 .wellness-para, .expenditon-para, .games-para, .culture-para, .beauty-para, .travelling-para {
