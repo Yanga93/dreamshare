@@ -31,21 +31,46 @@
   margin-left: 23em;
 }
 
-.footer-list{
+.footer-list {
   color: #666666;
 }
-.view-all{
+
+.view-all {
   color: #FF4E50;
 }
-.headings-dark-gray{
+
+.headings-dark-gray, .partner-details {
   color: #444444;
 }
 
 hr {
-    display: block;
-    height: 10px;
-    border: 0;
-    border-top: 2px solid #FF4E50;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 10px;
+  border: 0;
+  border-top: 2px solid #FF4E50;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.sports-img, .wellness-img, .expndition-img, .games-img, .culture-img, .beauty-img, .travelling-img {
+  position: relative;
+  width: 100%;
+}
+
+.wellness-para, .expenditon-para, .games-para, .culture-para, .beauty-para, .travelling-para {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-size: 2em;
+}
+
+.sports-para {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  color: black;
+  font-size: 2em;
 }
