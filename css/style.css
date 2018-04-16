@@ -15,10 +15,19 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+/*
+@media only screen and (max-width: 100%) {
+  .header img{
+    width: 100%;
+    height: auto;
+    background-size: 100% auto !important;
+  }
+} */
 
 .header img {
   max-width: 100%;
   height: auto;
+  background-size: 100% auto !important;
 }
 
 #dangerBtn {
