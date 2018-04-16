@@ -31,4 +31,21 @@
   margin-left: 23em;
 }
 
-.divider {}
+.footer-list{
+  color: #666666;
+}
+.view-all{
+  color: #FF4E50;
+}
+.headings-dark-gray{
+  color: #444444;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 2px solid #FF4E50;
+    margin: 1em 0;
+    padding: 0;
+}
