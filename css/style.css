@@ -15,6 +15,7 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+
 /*
 @media only screen and (max-width: 100%) {
   .header img{
@@ -74,6 +75,8 @@ hr {
   width: 100%;
   color: white;
   font-size: 2em;
+  font-family: montserrat;
+  font-weight: bold;
 }
 
 .sports-para {
@@ -83,4 +86,6 @@ hr {
   width: 100%;
   color: black;
   font-size: 2em;
+  font-family: montserrat;
+  font-weight: bold;
 }
