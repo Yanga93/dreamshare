@@ -1,0 +1,34 @@
+.nav-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.header-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header img {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 600px) {
+  .header img {
+    height: 280px;
+  }
+  .header-text {
+    font-size: 20px;
+  }
+}
+
+#dangerBtn {
+  color: red;
+  border-radius: 25px;
+  margin-left: 23em;
+}
+
+.divider {}
