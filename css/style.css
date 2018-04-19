@@ -2,6 +2,36 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+#sign-up-btn{
+  border-radius: 70px;
+  font-weight: bold;
+  border-width: thin;
+}
+
+.navbar li {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+}
+
+#banner-heading {
+  font-family: Roboto;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.banner-sub-heading{
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+#btn-style {
+  border-radius: 25px;
+  cursor: pointer;
+}
+
 #partner1 {
   width: 50px;
   height: 50px;
@@ -13,11 +43,10 @@
   height: 140px;
 }
 
-.header-text {
+.carousel-caption {
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translateY(-50%);
   color: white;
 }
 
